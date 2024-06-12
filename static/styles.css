@@ -6,11 +6,12 @@ body {
     height: 100vh;
     background-color: #f4f4f9;
     margin: 0;
+    padding: 0 20px;
 }
 
 .chat-container {
-    width: 50%;
-    max-width: 800px;
+    width: 100%;
+    max-width: 1200px;
     background: white;
     padding: 20px;
     border-radius: 10px;
@@ -57,12 +58,14 @@ body {
     align-items: center;
 }
 
-input[type="text"] {
+textarea {
     flex-grow: 1;
     padding: 10px;
     border-radius: 5px;
     border: 1px solid #ddd;
     margin-right: 10px;
+    resize: none;
+    height: 50px;
 }
 
 button {
